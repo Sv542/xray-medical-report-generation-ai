@@ -42,4 +42,19 @@ X-ray Image → CNN Feature Extractor → Encoder-Decoder Model → Generated Me
   - Image Feature Embeddings
   - Natural Language Generation
 
-## Project Structure
+## How to Run the Project
+
+1. Clone the repository
+
+git clone https://github.com/Sv542/xray-medical-report-generation-ai.git
+
+2. Install dependencies
+
+pip install -r requirements.txt
+
+3. Run the Flask app
+
+cd flask
+python app.py
+
+4. Upload a chest X-ray image through the web interface to generate a medical report.
